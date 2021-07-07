@@ -1,0 +1,20 @@
+[20:29:29]: game_hash_long: 014426f1706928ee686e721c74826304f774c633
+[20:29:29]: game_hash_short: 014426f170
+[20:29:29]: game_branch: release/1.4.2
+[20:29:29]: game_timestamp: 2021-06-15 17:28:05 +0000
+
+[20:29:29]: jomini_hash_long: ec310a2660efed5e84efa3c559559ebcb78e9b5d
+[20:29:29]: jomini_hash_short: ec310a2660
+[20:29:29]: jomini_branch: titus/release/1.4.2
+[20:29:29]: jomini_timestamp: 2021-06-03 08:14:19 +0000
+
+[20:29:29]: clausewitz_hash_long: ec310a2660efed5e84efa3c559559ebcb78e9b5d
+[20:29:29]: clausewitz_hash_short: ec310a2660
+[20:29:29]: clausewitz_branch: titus/release/1.4.2
+[20:29:29]: clausewitz_timestamp: 2021-06-03 08:14:19 +0000
+
+[20:29:29]: external_libs_hash_long: e3907e8d810637a7f618fd57558866578d77a2ac
+[20:29:29]: external_libs_hash_short: e3907e8d8
+[20:29:29]: external_libs_branch: develop
+[20:29:29]: external_libs_timestamp: 2021-06-09 15:04:37 +0000
+

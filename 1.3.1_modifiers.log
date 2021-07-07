@@ -119,7 +119,6 @@ Tag: opinion_of_different_culture, Categories: character
 Tag: opinion_of_same_faith, Categories: character
 Tag: opinion_of_different_faith, Categories: character
 Tag: opinion_of_liege, Categories: character
-Tag: opinion_of_parents, Categories: character
 Tag: opinion_of_vassal, Categories: character
 Tag: opinion_of_different_faith_liege, Categories: character
 Tag: same_culture_opinion, Categories: character
@@ -239,11 +238,6 @@ Tag: winter_movement_speed, Categories: combat
 Tag: supply_loss_winter, Categories: combat
 Tag: hard_casualty_winter, Categories: combat
 Tag: winter_advantage, Categories: combat
-Tag: army_siege_value_mult, Categories: combat
-Tag: army_damage_mult, Categories: combat
-Tag: army_toughness_mult, Categories: combat
-Tag: army_pursuit_mult, Categories: combat
-Tag: army_screen_mult, Categories: combat
 Tag: supply_limit_mult, Categories: province
 Tag: supply_limit, Categories: province
 Tag: fort_level, Categories: holding

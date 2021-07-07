@@ -62,12 +62,6 @@ Expected Scope: character
 
 --------------------
 
-playdate_host_event_selection:
-From Code: No
-Expected Scope: none
-
---------------------
-
 on_weight_changed:
 From Code: Yes
 Expected Scope: character
@@ -806,12 +800,6 @@ Expected Scope: none
 
 --------------------
 
-playdate_start_events:
-From Code: No
-Expected Scope: character
-
---------------------
-
 on_great_holy_war_invalidation:
 From Code: Yes
 Expected Scope: great holy war
@@ -1136,12 +1124,6 @@ Expected Scope: character
 
 --------------------
 
-playdate_event_selection:
-From Code: No
-Expected Scope: character
-
---------------------
-
 peasant_affair_looking_for_peasant:
 From Code: No
 Expected Scope: character
@@ -1235,12 +1217,6 @@ Expected Scope: character
 on_potential_great_holy_war_invalidation:
 From Code: Yes
 Expected Scope: great holy war
-
---------------------
-
-fp1_trade_events_cycle:
-From Code: No
-Expected Scope: none
 
 --------------------
 
@@ -1406,12 +1382,6 @@ Expected Scope: character
 
 --------------------
 
-fp1_trade_events_random:
-From Code: No
-Expected Scope: character
-
---------------------
-
 befriend_success:
 From Code: No
 Expected Scope: character
@@ -1473,12 +1443,6 @@ Expected Scope: character
 --------------------
 
 on_birthday_education_events:
-From Code: No
-Expected Scope: character
-
---------------------
-
-playdate_fallback:
 From Code: No
 Expected Scope: character
 

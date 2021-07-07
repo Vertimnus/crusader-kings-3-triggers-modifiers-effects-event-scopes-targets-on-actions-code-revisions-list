@@ -65,11 +65,6 @@ Supported Scopes: dynasty
 
 --------------------
 
-remove_dynasty_perk - Removes dynasty perk. remove_dynasty_perk = key
-Supported Scopes: dynasty
-
---------------------
-
 add_house_modifier - Add a modifier to a house
 add_house_modifier = name
 add_house_modifier = { modifier = name days/weeks/months/years = int }
@@ -1106,7 +1101,7 @@ Supported Targets: character
 
 --------------------
 
-add_innovation - Add innovation to a culture. add_innovation = innovation_key
+add_innovation - Add innovation to a culture
 Supported Scopes: culture
 
 --------------------
@@ -1124,11 +1119,6 @@ Supported Targets: culture
 --------------------
 
 get_random_innovation_from - Get random available innovation from another culture
-Supported Scopes: culture
-
---------------------
-
-remove_innovation - Remove innovation from a culture. remove_innovation = innovation_key
 Supported Scopes: culture
 
 --------------------
@@ -1461,12 +1451,6 @@ Supported Targets: character
 cancel_truce_one_way - Ends the truce against the specified character. cancel_truce_one_way = scope:character
 Supported Scopes: character
 Supported Targets: character
-
---------------------
-
-change_age - Changes the character's age by the given amount. Sets age to 0 if it'd end up below 0. Note that this will completely bypass birthday on-actions, age-related health, and so on, just like the console command
-   Usage: change_age = script value
-Supported Scopes: character
 
 --------------------
 
@@ -4824,12 +4808,6 @@ Supported Scopes: character
 
 --------------------
 
-set_age - Sets the character's age. Note that this will completely bypass birthday on-actions, age-related health, and so on, just like the console command
-   Usage: set_age = script value
-Supported Scopes: character
-
---------------------
-
 set_beneficiary - The target character becomes the beneficiary of the scoped character. set_beneficiary = some character
 Supported Scopes: character
 Supported Targets: character
@@ -5440,11 +5418,6 @@ Supported Scopes: faith
 
 --------------------
 
-deactivate_holy_site - Deactivate an active holy site<faith_scope> = { deactivate_holy_site = <holy_site_name> }
-Supported Scopes: faith
-
---------------------
-
 every_defensive_great_holy_wars - Iterate through all great holy wars this faith is defending against
 every_defensive_great_holy_wars = { limit = { <triggers> } <effects> }
 Supported Scopes: faith
@@ -6006,13 +5979,6 @@ Supported Scopes: army
 
 --------------------
 
-set_army_location - Teleports the army to the given location. Cannot be done while in combat. Will cause combat to happen with this army as the attacker if there's hostiles in the target
-set_army_location = scope:province
-Supported Scopes: army
-Supported Targets: province
-
---------------------
-
 add_diplomacy_skill - Adds diplomacy skill
 Supported Scopes: none
 
@@ -6202,11 +6168,6 @@ Supported Scopes: none
 
 --------------------
 
-clear_traits - Removes all traits for the character. clear_traits = yes
-Supported Scopes: none
-
---------------------
-
 clear_variable_list - Empties the list
 clear_variable_list = variable_name
 Supported Scopes: none
@@ -6230,12 +6191,6 @@ Supported Scopes: none
 
 complete_activity - completes the activity, complete_activity = yes ends the activity and runs the on_complete effect, complete_activity = no ends the activity without running the effect
 Supported Scopes: none
-
---------------------
-
-copy_traits - Adds all traits of the target to the character. Skips any traits that the character isn't allowed to have. Will not remove the character's existing traits. copy_traits = scope:character
-Supported Scopes: none
-Supported Targets: character
 
 --------------------
 
@@ -6432,13 +6387,6 @@ Supported Targets: landed title
 
 --------------------
 
-every_culture_global - Iterate through all cultures in the game
-every_culture_global = { limit = { <triggers> } <effects> }
-Supported Scopes: none
-Supported Targets: culture
-
---------------------
-
 every_duchy - Iterate through all duchies in the game
 every_duchy = { limit = { <triggers> } <effects> }
 Supported Scopes: none
@@ -6618,20 +6566,6 @@ check_range_bounds = no # If you don't want an error logged if the list is small
 <effects> }
 Supported Scopes: none
 Supported Targets: landed title
-
---------------------
-
-ordered_culture_global - Iterate through all cultures in the game
-ordered_culture_global = {
-limit = { <triggers> }
-order_by = script_value
-position = int
-min = int
-max = script_value
-check_range_bounds = no # If you don't want an error logged if the list is smaller than the min/max
-<effects> }
-Supported Scopes: none
-Supported Targets: culture
 
 --------------------
 
@@ -6852,13 +6786,6 @@ random_county_in_region - Iterate through all counties in the region. Put 'regio
 random_county_in_region = { limit = { <triggers> } (optional) weight = { mtth } <effects> }
 Supported Scopes: none
 Supported Targets: landed title
-
---------------------
-
-random_culture_global - Iterate through all cultures in the game
-random_culture_global = { limit = { <triggers> } (optional) weight = { mtth } <effects> }
-Supported Scopes: none
-Supported Targets: culture
 
 --------------------
 

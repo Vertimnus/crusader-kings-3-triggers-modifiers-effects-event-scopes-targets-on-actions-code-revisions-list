@@ -834,11 +834,6 @@ Supported Scopes: culture
 
 --------------------
 
-has_innovation_flag - Has the culture discovered an innovation with this flag? has_innovation_flag = flag
-Supported Scopes: culture
-
---------------------
-
 mercenary_company_expiration_days - How many days are left in the mercenary contract. 0 if not hired.
 Traits: <, <=, =, !=, >, >=
 Supported Scopes: mercenary company
@@ -4924,14 +4919,14 @@ Supported Scopes: army
 
 --------------------
 
-building_levies - The amount of levies in a county or province from buildings
+building_garrison - The amount of garrison in a county or province from buildings
 levies > 100
 Traits: <, <=, =, !=, >, >=
 Supported Scopes: landed title, province
 
 --------------------
 
-building_max_garrison - The max amount of garrison in a county or province from buildings
+building_levies - The amount of levies in a county or province from buildings
 levies > 100
 Traits: <, <=, =, !=, >, >=
 Supported Scopes: landed title, province
@@ -4986,13 +4981,6 @@ any_county_in_region - Iterate through all counties in the region. Put 'region =
 any_county_in_region = { <count=num/all> / <percent=fixed_point> <triggers> }
 Supported Scopes: none
 Supported Targets: landed title
-
---------------------
-
-any_culture_global - Iterate through all cultures in the game
-any_culture_global = { <count=num/all> / <percent=fixed_point> <triggers> }
-Supported Scopes: none
-Supported Targets: culture
 
 --------------------
 
@@ -5443,36 +5431,6 @@ Supported Scopes: none
 --------------------
 
 or - at least one entry inside trigger must be true
-Supported Scopes: none
-
---------------------
-
-perks_in_diplomacy_lifestyle - How many perks does this lifestyle have?
-Traits: <, <=, =, !=, >, >=
-Supported Scopes: none
-
---------------------
-
-perks_in_intrigue_lifestyle - How many perks does this lifestyle have?
-Traits: <, <=, =, !=, >, >=
-Supported Scopes: none
-
---------------------
-
-perks_in_learning_lifestyle - How many perks does this lifestyle have?
-Traits: <, <=, =, !=, >, >=
-Supported Scopes: none
-
---------------------
-
-perks_in_martial_lifestyle - How many perks does this lifestyle have?
-Traits: <, <=, =, !=, >, >=
-Supported Scopes: none
-
---------------------
-
-perks_in_stewardship_lifestyle - How many perks does this lifestyle have?
-Traits: <, <=, =, !=, >, >=
 Supported Scopes: none
 
 --------------------
